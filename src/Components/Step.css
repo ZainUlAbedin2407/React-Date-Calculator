@@ -1,0 +1,60 @@
+.step-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 0.1rem;
+  border: 1px solid #e6e3e3;
+  padding: 0.5rem;
+  margin: 1rem 0;
+  border-radius: 12px;
+  box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.1);
+}
+
+.step-head {
+  font-size: 25px;
+  font-weight: 500;
+}
+
+.counter {
+  font-size: 70px;
+}
+
+.step-buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.step-buttons button {
+  width: 120px;
+  padding: 2px 20px;
+  border-radius: 12px;
+  color: white;
+  font-size: 35px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.step-buttons .increment {
+  background-color: #007bff;
+  border: 1px solid #1083fd;
+}
+
+.step-buttons .increment:hover {
+  background-color: #0056b3;
+}
+
+.step-buttons .decrement {
+  color: black;
+  border: 1px solid #e6e3e3;
+}
+
+.step-buttons .decrement:disabled {
+  cursor: not-allowed;
+}
+
+.step-buttons .decrement:hover {
+  background-color: #eceaea;
+}
