@@ -12,8 +12,7 @@ A simple and interactive **Date Counter Application** built using **React.js**. 
 
 ## 🚀 Live Demo
 
-[Click here to view the live project](#)  
-_(replace `#` with your actual live URL if hosted)_
+[Click here to view the live project](https://react-date-calculator.vercel.app/)  
 
 ---
 
